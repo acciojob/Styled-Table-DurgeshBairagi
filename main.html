@@ -2,14 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Quarterly Sales Statistics</title>
+    <style>
+        table {
+            width: 100%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            background-color: #f9f9f9;
+        }
+        thead {
+            background-color: #009879;
+            color: #ffffff;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #009879;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #d1e7dd;
+        }
+        h2 {
+            text-align: center;
+            color: #333333;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+    <h2>2023 Quarterly Sales Statistics</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Quarter</th>
+                <th>Region</th>
+                <th>Sales (in USD)</th>
+                <th>Percentage Change</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Q1</td>
+                <td>North America</td>
+                <td>$500,000</td>
+                <td>+5%</td>
+            </tr>
+            <tr>
+                <td>Q1</td>
+                <td>Europe</td>
+                <td>$450,000</td>
+                <td>+4%</td>
+            </tr>
+            <tr>
+                <td>Q2</td>
+                <td>North America</td>
+                <td>$550,000</td>
+                <td>+10%</td>
+            </tr>
+            <tr>
+                <td>Q2</td>
+                <td>Europe</td>
+                <td>$460,000</td>
+                <td>+2%</td>
+            </tr>
+            <tr>
+                <td>Q3</td>
+                <td>North America</td>
+                <td>$600,000</td>
+                <td>+9%</td>
+            </tr>
+            <tr>
+                <td>Q3</td>
+                <td>Europe</td>
+                <td>$470,000</td>
+                <td>+3%</td>
+            </tr>
+            <tr>
+                <td>Q4</td>
+                <td>North America</td>
+                <td>$650,000</td>
+                <td>+8%</td>
+            </tr>
+            <tr>
+                <td>Q4</td>
+                <td>Europe</td>
+                <td>$480,000</td>
+                <td>+2%</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
